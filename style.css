@@ -1,0 +1,46 @@
+/* Background Pattern 
+Taken From https: http://thepatternlibrary.com/ */
+
+body{
+  background-image: url("quake.png") !important;
+  background:
+  radial-gradient(hsl(0, 61%, 30%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+  radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+  radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+  radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+  radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+  radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+  radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+  radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+  linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+  linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0 !important;
+  background-color: #300 !important;
+  background-size: 100px 100px !important;
+}
+
+h1{
+  background-color: #dcc174 ;
+  color: #5c0000  !important;
+}
+
+h2, button{
+  color: #dcc174 !important;
+  background-color: #5c0000 !important;
+  font-weight: bold !important;
+}
+
+.nav-link{
+  background-color: white !important; 
+}
+
+
+#myCanvas{
+  border: 35px ridge #dcc174 ; 
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/7/2019/11/185.GettyImages-904575576-5468d90-e1573647643808.jpg?quality=90&resize=980,654");
+  background-repeat: no-repeat;
+}
+
+.accordion{
+  width: 600px;
+  margin: auto;
+}
